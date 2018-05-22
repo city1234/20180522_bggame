@@ -212,7 +212,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001d4270', e
 
 
 	#BGfish_level{
-		background-image: url(../images/mobile/mobile_banner_04.jpg);
+		background-image: url(../images/mobile_banner_04.jpg);
 	}
 	#BGfish_level article div {
     max-height: 450px;
@@ -242,7 +242,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001d4270', e
 
 
 	#BGfish_arms{
-		background-image: url(../images/mobile/mobile_banner_arms.jpg);
+		background-image: url(../images/mobile_banner_arms.jpg);
 		padding: 0 50px;
 	}
 	#BGfish_arms article{
