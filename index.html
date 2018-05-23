@@ -4,7 +4,6 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="keywords" content="博弈品牌/博彩平台/现金网系统/彩票平台/真人视讯遊戏/体育体彩/电子遊戏/老虎机平台/娱乐城平台">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>BGgame</title>
@@ -16,12 +15,40 @@
     <link rel="stylesheet" href="css/jquery.fullPage.css">
     <link rel="stylesheet" href="css/product_fish.css">
     <link rel="stylesheet" href="css/product_BG_video.css">
+    <link rel="stylesheet" href="stylesheets/screen.css" />
+    <script src="js/jquery-1.12.3.min.js"></script>
+    <script src="js/myjs.js"></script>
 </head>
 
 <body ng-app="theApp" ng-controller="HomeCtrl as ctrl">
     <!-- 總寬度 -->
     <div id="app" class="mainwidth">
-        <section id="fullpage" class="product_main">
+        <section id="topbanner" class="wrapper">
+            <div class="wrapper_in">
+                <div class="slogan"><img src="images/slogan.png" alt=""></div>
+                <div class="cardbox">
+                    <li class="card">
+                        <a href="#livepage">
+                            <img src="images/nav_api_01.png" alt="">
+                            <div class="cardbtn">BG真人视讯</div>
+                        </a>
+                    </li>
+                    <li class="card">
+                        <a href="#fishpage">
+                            <img src="images/nav_api_02.png" alt="">
+                            <div class="cardbtn">BG捕鱼大师</div>
+                        </a>
+                    </li>
+                    <li class="card">
+                        <a href="#tigerpage">
+                            <img src="images/nav_api_03.png" alt="">
+                            <div class="cardbtn">BG老虎机</div>
+                        </a>
+                    </li>
+                </div>
+            </div>
+        </section>
+        <section id="livepage" class="product_main">
             <div class="product_video_banner fp-auto-height section">
                 <div class="inner"><img src="images/product_video_top_banner.png" alt="">
                     <div class="banner_textbox">
@@ -106,91 +133,93 @@
 
 
         <!--fish-->
-        <section id="BGfish_block01">
-            <article class="BGfish_banner"><img src="images/banner.png" class="drive_PC"> <img src="images/mobile_banner.jpg" class="drive_Mobile"></article>
-            <article class="BGfish_intro">
-                <h1>BG捕鱼大师</h1>
-                <p>BG大遊自主研发的《BG捕鱼大师》不但可六人同时在线，还有独创的等级系统，只要玩家累积分数升级后，即可拥有「多重雷射炮、深海炸弹、极速钻头炮」等六款全新武器种类。另外还有「彩金宝箱、美人鱼、限量红包蟹活动」等特殊功能与高倍率鱼种等您来抢！《BG捕鱼大师》全面支持 HTML5、PC、APP，让所有玩家不管身在何处，都能随时畅玩！</p>
-            </article>
-        </section>
-        <section id="BGfish_level">
-            <article class="BGfish_level01">
-                <div><img src="images/level01.png" alt=""></div> <span class="drive_PC">让您小试身手，快速熟悉模式</span> <span class="drive_Mobile">让您小试身手<br>快速熟悉模式</span></article>
-            <article class="BGfish_level02">
-                <div><img src="images/level02.png" alt=""></div> <span class="drive_PC">寻找好手过招，迈向大师之路</span> <span class="drive_Mobile">寻找好手过招<br>迈向大师之路</span></article>
-            <article class="BGfish_level03">
-                <div><img src="images/level03.png" alt=""></div> <span class="drive_PC">挑战自我极限，荣登至尊殿堂</span> <span class="drive_Mobile">挑战自我极限<br>荣登至尊殿堂</span></article>
-        </section>
-        <section id="BGfish_features">
-            <h1 class="title">游戏特色</h1>
-            <article class="level_intro">
-                <h2 class="subtitle">等级系统</h2>
-                <p>与众不同的大炮外观！捕鱼时不仅可获得高额赔率奖金，还能累积分数，提升个人等级，并获得16座风格更独特、更霸气、更牛逼的外观及各种专属炮弹特效，让你在渔场中展现尊荣不凡的身分！</p>
-            </article>
-            <article class="game_img">
-                <div class="drive_PC"><img src="images/power.png"></div>
-                <div class="drive_Mobile"><img src="images/game_mobile_01.png"> <img src="images/game_mobile_02.png"></div>
-            </article>
-            <article class="arms_intro">
-                <h2 class="subtitle">超进击！新六大特殊功能炮</h2>
-                <p>升级的同时，系统还会帮你加载最新的六大特殊功能炮，包含：极大扩散炮、牵引光束、粒子鞭、多重雷射炮、深海炸弹、急速钻头炮，让您如得神兵利器一样横扫渔场。</p>
-            </article>
-        </section>
-        <section id="BGfish_arms">
-            <article>
-                <div class="arms_banner"><img src="images/game_left_01.png" alt=""></div>
-                <div class="arms_intro">
-                    <div class="title_img"><img src="images/game_left_title_01.png" alt=""></div>
-                    <div class="arms_introContent">
-                        <p>一发定魂！成功捕获后，将能获取鱼池中所有与圈内相同的一个鱼种。</p>
+        <section id="fishpage">
+            <section id="BGfish_block01">
+                <article class="BGfish_banner"><img src="images/banner.png" class="drive_PC"> <img src="images/mobile_banner.jpg" class="drive_Mobile"></article>
+                <article class="BGfish_intro">
+                    <h1>BG捕鱼大师</h1>
+                    <p>BG大遊自主研发的《BG捕鱼大师》不但可六人同时在线，还有独创的等级系统，只要玩家累积分数升级后，即可拥有「多重雷射炮、深海炸弹、极速钻头炮」等六款全新武器种类。另外还有「彩金宝箱、美人鱼、限量红包蟹活动」等特殊功能与高倍率鱼种等您来抢！《BG捕鱼大师》全面支持 HTML5、PC、APP，让所有玩家不管身在何处，都能随时畅玩！</p>
+                </article>
+            </section>
+            <section id="BGfish_level">
+                <article class="BGfish_level01">
+                    <div><img src="images/level01.png" alt=""></div> <span class="drive_PC">让您小试身手，快速熟悉模式</span> <span class="drive_Mobile">让您小试身手<br>快速熟悉模式</span></article>
+                <article class="BGfish_level02">
+                    <div><img src="images/level02.png" alt=""></div> <span class="drive_PC">寻找好手过招，迈向大师之路</span> <span class="drive_Mobile">寻找好手过招<br>迈向大师之路</span></article>
+                <article class="BGfish_level03">
+                    <div><img src="images/level03.png" alt=""></div> <span class="drive_PC">挑战自我极限，荣登至尊殿堂</span> <span class="drive_Mobile">挑战自我极限<br>荣登至尊殿堂</span></article>
+            </section>
+            <section id="BGfish_features">
+                <h1 class="title">游戏特色</h1>
+                <article class="level_intro">
+                    <h2 class="subtitle">等级系统</h2>
+                    <p>与众不同的大炮外观！捕鱼时不仅可获得高额赔率奖金，还能累积分数，提升个人等级，并获得16座风格更独特、更霸气、更牛逼的外观及各种专属炮弹特效，让你在渔场中展现尊荣不凡的身分！</p>
+                </article>
+                <article class="game_img">
+                    <div class="drive_PC"><img src="images/power.png"></div>
+                    <div class="drive_Mobile"><img src="images/game_mobile_01.png"> <img src="images/game_mobile_02.png"></div>
+                </article>
+                <article class="arms_intro">
+                    <h2 class="subtitle">超进击！新六大特殊功能炮</h2>
+                    <p>升级的同时，系统还会帮你加载最新的六大特殊功能炮，包含：极大扩散炮、牵引光束、粒子鞭、多重雷射炮、深海炸弹、急速钻头炮，让您如得神兵利器一样横扫渔场。</p>
+                </article>
+            </section>
+            <section id="BGfish_arms">
+                <article>
+                    <div class="arms_banner"><img src="images/game_left_01.png" alt=""></div>
+                    <div class="arms_intro">
+                        <div class="title_img"><img src="images/game_left_title_01.png" alt=""></div>
+                        <div class="arms_introContent">
+                            <p>一发定魂！成功捕获后，将能获取鱼池中所有与圈内相同的一个鱼种。</p>
+                        </div>
                     </div>
-                </div>
-            </article>
-            <article>
-                <div class="arms_banner"><img src="images/game_right_01.png" alt=""></div>
-                <div class="arms_intro">
-                    <div class="title_img"><img src="images/game_right_title_01.png" alt=""></div>
-                    <div class="arms_introContent">
-                        <p>多多益善！成功捕获后，将能获取鱼池中所有与圈内相同的三个鱼种。</p>
+                </article>
+                <article>
+                    <div class="arms_banner"><img src="images/game_right_01.png" alt=""></div>
+                    <div class="arms_intro">
+                        <div class="title_img"><img src="images/game_right_title_01.png" alt=""></div>
+                        <div class="arms_introContent">
+                            <p>多多益善！成功捕获后，将能获取鱼池中所有与圈内相同的三个鱼种。</p>
+                        </div>
                     </div>
-                </div>
-            </article>
-            <article>
-                <div class="arms_banner"><img src="images/game_left_02.png" alt=""></div>
-                <div class="arms_intro">
-                    <div class="title_img"><img src="images/game_left_title_02.png" alt=""></div>
-                    <div class="arms_introContent">
-                        <p>最強連鎖！成功捕获后，将能获取鱼池中所有与圈内相同的五个鱼种。</p>
+                </article>
+                <article>
+                    <div class="arms_banner"><img src="images/game_left_02.png" alt=""></div>
+                    <div class="arms_intro">
+                        <div class="title_img"><img src="images/game_left_title_02.png" alt=""></div>
+                        <div class="arms_introContent">
+                            <p>最強連鎖！成功捕获后，将能获取鱼池中所有与圈内相同的五个鱼种。</p>
+                        </div>
                     </div>
-                </div>
-            </article>
-            <article>
-                <div class="arms_banner"><img src="images/game_right_02.png" alt=""></div>
-                <div class="arms_intro">
-                    <div class="title_img"><img src="images/game_right_title_02.png" alt=""></div>
-                    <div class="arms_introContent">
-                        <p>不容错过！攻击时会一边提高彩金额度，顺利击落后所有彩金将由胜者全拿。</p>
+                </article>
+                <article>
+                    <div class="arms_banner"><img src="images/game_right_02.png" alt=""></div>
+                    <div class="arms_intro">
+                        <div class="title_img"><img src="images/game_right_title_02.png" alt=""></div>
+                        <div class="arms_introContent">
+                            <p>不容错过！攻击时会一边提高彩金额度，顺利击落后所有彩金将由胜者全拿。</p>
+                        </div>
                     </div>
-                </div>
-            </article>
-            <article>
-                <div class="arms_banner"><img src="images/game_left_03.png" alt=""></div>
-                <div class="arms_intro">
-                    <div class="title_img"><img src="images/game_left_title_03.png" alt=""></div>
-                    <div class="arms_introContent">
-                        <p>挑战极限！游戏中将不定时出现终极Boss龙王鱼、美人鱼，奖金高达800倍，攻击时额外掉落20～50倍奖励金币，还可以拉走全额JP奖金，等待勇者前来挑战！</p>
+                </article>
+                <article>
+                    <div class="arms_banner"><img src="images/game_left_03.png" alt=""></div>
+                    <div class="arms_intro">
+                        <div class="title_img"><img src="images/game_left_title_03.png" alt=""></div>
+                        <div class="arms_introContent">
+                            <p>挑战极限！游戏中将不定时出现终极Boss龙王鱼、美人鱼，奖金高达800倍，攻击时额外掉落20～50倍奖励金币，还可以拉走全额JP奖金，等待勇者前来挑战！</p>
+                        </div>
                     </div>
-                </div>
-            </article>
-            <article>
-                <div class="arms_banner"><img src="images/game_right_03.png" alt=""></div>
-                <div class="arms_intro">
-                    <div class="title_img"><img src="images/game_right_title_03.png" alt=""></div>
-                    <div class="arms_introContent">
-                        <p>限量限时洒红包，红包满满惊喜送！游戏将不定期推出限时限量红包螃蟹在渔场中游动，手握满满红包就等你来拿！</p>
+                </article>
+                <article>
+                    <div class="arms_banner"><img src="images/game_right_03.png" alt=""></div>
+                    <div class="arms_intro">
+                        <div class="title_img"><img src="images/game_right_title_03.png" alt=""></div>
+                        <div class="arms_introContent">
+                            <p>限量限时洒红包，红包满满惊喜送！游戏将不定期推出限时限量红包螃蟹在渔场中游动，手握满满红包就等你来拿！</p>
+                        </div>
                     </div>
-                </div>
-            </article>
+                </article>
+            </section>
         </section>
     </div>
 </body>

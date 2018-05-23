@@ -29,7 +29,7 @@ body{
 
 
 .mainwidth{
-	max-width: 1920px;
+	/*max-width: 1920px;*/
 	/*min-width: 1200px;*/
 	width: 100%;
 	margin: 0 auto;
